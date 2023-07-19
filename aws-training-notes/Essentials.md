@@ -41,3 +41,18 @@ Amazon Fargate is the serverless option here, meaning you will care only about k
 
 ### Amazon Lambda
 Serverless functions that can be triggered by some trigger and are used an billed on demand
+
+### Networking
+
+IPv4 - 32 bit address
+IPv4 Notation - 4 bytes in decimal separated by .
+CIDR notation - IPv4 notation / number of fixed bytes so that the remaining bytes represent the range of ip addresses
+
+To access subnet from internet need to create an Internet Gateway
+To link subnet to own private network need to create Virtual Private Gateway
+
+VPC -> Subnet
+
+Routing table should be set to allow traffic to subnet from the internet to allow traffic to it through internet gateway
+
+NetworkAccessControlList (firewall at subnet level, stateless) -> Security Groups (firewall at EC2 level, stateful)
