@@ -56,3 +56,44 @@ VPC -> Subnet
 Routing table should be set to allow traffic to subnet from the internet to allow traffic to it through internet gateway
 
 NetworkAccessControlList (firewall at subnet level, stateless) -> Security Groups (firewall at EC2 level, stateful)
+
+### Unstructured data storage
+
+Fundamentally these types are available:
+* File storage
+* Object storage
+* Block storage
+
+### Structured  data storage - databases
+
+There are 2 way to have a database in AWS, either it is unmanaged, which means that you can migrate your RDB to an EC2 instance which will result in having to managed all aspects down to host system.
+And managed, which can be be provided by Amazon RDS.
+It is recommended to have RDS deployed at least in 2 availability zones for redundancy.
+
+There are other databases build for specific use cases which can be used instead of RDB
+* Amazon DynamoDB
+* Amazon ElasticCache
+* Amazon MemoryDB for Redis
+* Amazon DocumentDB with MongoDB compatibility
+* Amazon Keyspaces for Apache Cassandra
+* Amazon Neptune (graph database)
+* Amazon Timestream (timeseries db for IOT)
+* Amazon Quantum Ledger Database (history of db transactions?)
+
+### Monitoring
+
+Benefits of using a monitoring solution:
+ * Respond to operational issues before the end users are aware of them
+ * Improve performance and reliability
+ * Recognise security threats and events
+ * Make data driven decisions
+ * Create cost effective solution by optimising sizes based on usage
+
+AWS CloudWatch is the aws solution for observability, can also trigger alarms and actions on some metrics threshold.
+
+### Scalability, Availability
+Availability is measured in downtime per year expressed in 9 percentiles ex: 99% 99.9%
+
+AWS ELB - elastic load balancer
+
+Can operate on application or ip layer
