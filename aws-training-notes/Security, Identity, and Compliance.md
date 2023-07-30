@@ -32,3 +32,13 @@ Avoiding unneeded costs
 #### Sustainability
 
 Using recommendations and strategies to maximise efficiency and reduce waste 
+
+
+## Amazon Cognito
+
+User SignIn, SignUp for mobile, web apps.
+
+## AWS Directory Service
+
+Possibility to create AWS managed Microsoft Active Directory or ldap compatible directory for user federation. Also possible to combine with using the already existing on premises active directory. 
+
