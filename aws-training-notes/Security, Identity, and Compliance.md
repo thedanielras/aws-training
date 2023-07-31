@@ -34,11 +34,30 @@ Avoiding unneeded costs
 Using recommendations and strategies to maximise efficiency and reduce waste 
 
 
-## Amazon Cognito
+#### Amazon Cognito
 
 User SignIn, SignUp for mobile, web apps.
 
-## AWS Directory Service
+#### AWS Directory Service
 
 Possibility to create AWS managed Microsoft Active Directory or ldap compatible directory for user federation. Also possible to combine with using the already existing on premises active directory. 
 
+### Security Monitoring
+
+#### Amazon GuardDuty
+
+Scans and analise various datasources for threats, and alerts on findings.
+To protect application and services.
+Can create automated scenarios where a detected malicious ipp address would be blocked in security group of EC2.
+
+#### Amazon SecurityHub
+
+Collects data from all security services, aggregate, prioritise findings, show in a unified place.
+Continuous compliance checks.
+Take action on findings.
+Multi account data aggregation.
+Overall security and compliance posture.
+
+#### Amazon Macie
+
+Scans data and uses machine learning to understand what data is business critical and detects security threats to this data.
