@@ -61,3 +61,9 @@ Overall security and compliance posture.
 #### Amazon Macie
 
 Scans data and uses machine learning to understand what data is business critical and detects security threats to this data.
+
+#### Amazon WAF (Web Application Firewall)
+
+Protect web application on malicious requests. 
+Requests can be filtered by ip address, url, rate of requests from an ip
+Requests can be ignored if they contain an sql injection, cross-site scripting attack.
