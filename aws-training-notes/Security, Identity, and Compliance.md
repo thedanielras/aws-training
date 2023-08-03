@@ -67,3 +67,19 @@ Scans data and uses machine learning to understand what data is business critica
 Protect web application on malicious requests. 
 Requests can be filtered by ip address, url, rate of requests from an ip
 Requests can be ignored if they contain an sql injection, cross-site scripting attack.
+
+#### AWS Shield
+
+Protects against DDOS attacks. Basic features free, advanced are priced.
+
+#### AWS KMS for Key Management
+
+Centrally manage and securely store your keys
+
+#### AWS Certificate Manager
+
+Create TLS certificate for domain, and then use it in different services serving requests over https.
+
+#### AWS Secrets Manager
+
+Store secrets like connection string to the database, give access only to correct IAM, regularly rotate secrets. Provide access to applications to secrets through api/sdk.
