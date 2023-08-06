@@ -83,3 +83,12 @@ Create TLS certificate for domain, and then use it in different services serving
 #### AWS Secrets Manager
 
 Store secrets like connection string to the database, give access only to correct IAM, regularly rotate secrets. Provide access to applications to secrets through api/sdk.
+
+#### AWS Config
+
+Monitor config of different services and apply rules for compliance, and check for compliance. For example, i can apply a rule to my EBS so that all my volumes need to be encrypted and i can see if they actually are.
+Run trigger on configuration change. Can trigger lambda functions.
+
+#### AWS Well-Architected Tool
+
+Act as self service architecture advice tool that will show how the solution os behaving and what can be improved.
