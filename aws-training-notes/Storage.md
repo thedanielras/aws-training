@@ -8,3 +8,7 @@ Object storage
 
 File storage
 	Access shared files
+
+
+
+![[Pasted image 20230808232027.png]]
